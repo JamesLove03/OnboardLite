@@ -41,7 +41,7 @@ Set database to
 ```
 database:
     url: "sqlite:////data/database.db"  # For docker create database/
-    url: "sqlite:///database/database.db" # For local dev create database/
+    url: "sqlite:////database/database.db" # For local dev create database/
 ```
 To run you can do either
 

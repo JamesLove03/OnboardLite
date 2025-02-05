@@ -52,7 +52,6 @@ def test_user_fixture(session: Session):
     )
     test_user = UserModel(
         id=uuid.uuid4(),
-        discord_id="123456123456123456",
         ucf_id=123456,
         nid="ko123456",
         ops_email="ops_test@example.com",
